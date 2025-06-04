@@ -7,7 +7,7 @@ import google.generativeai as genai
 st.set_page_config(page_title="Smart Irrigation Assistant", page_icon="💧", layout="wide")
 
 # Configure Gemini AI API
-GEMINI_API_KEY = "AIzaSyCvrPpxfyLKoC7Uq1rul3GTj3am_oYDWXs"  # Replace with your actual API key
+GEMINI_API_KEY = ""  # Replace with your actual API key
 genai.configure(api_key=GEMINI_API_KEY)
 
 # Function to set custom styles
